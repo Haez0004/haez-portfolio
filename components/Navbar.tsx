@@ -7,6 +7,7 @@ export default function Navbar() {
         HAEZ
       </Link>
       <div className="flex gap-6 text-sm">
+        <Link href="/about" className="hover:text-cyan-400">About</Link>
         <Link href="/projects" className="hover:text-cyan-400">Projects</Link>
         <Link href="/contact" className="hover:text-cyan-400">Contact</Link>
       </div>
