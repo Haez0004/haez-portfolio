@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HAEZ Portfolio
 
-## Getting Started
+Personal portfolio of **Haez**, a frontend developer from Abuja, Nigeria. Built with the Next.js App Router, TypeScript and Tailwind CSS, entirely on a phone using Termux.
 
-First, run the development server:
+**Live site:** https://haez-portfolio.vercel.app
 
-```bash
+## Performance
+
+Mobile PageSpeed Insights on the live site:
+
+| Performance | Accessibility | Best Practices | SEO |
+|:-----------:|:-------------:|:--------------:|:---:|
+| 100 | 98 | 100 | 100 |
+
+## Features
+
+- Five routes: Home, About, Projects, Project detail and Contact
+- Dynamic project pages (`/projects/[slug]`) built ahead of time with `generateStaticParams`
+- Per-page metadata with `generateMetadata`, plus Open Graph and Twitter share previews (photo and title show on WhatsApp)
+- Typed project and skills data (`data/projects.ts`, `data/skills.ts`) rendered with `.map()`
+- Server Components by default, with no client JavaScript where it is not needed
+- `next/image` for the hero photo and `next/font` for Inter
+- Custom 404 page
+- Contact form powered by Formspree
+- Responsive, mobile-first layout with a dark theme
+
+## Tech stack
+
+- Next.js 16 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Formspree
+- Vercel
+
+## Project structure
+
+~~~
+app/
+  layout.tsx          shared navbar, footer, fonts and metadata
+  page.tsx            home page
+  about/page.tsx      skills and learning journey
+  projects/page.tsx   all projects
+  projects/[slug]/    one page per project
+  contact/page.tsx    contact form
+  not-found.tsx       custom 404
+components/           Navbar, Footer, ProjectCard
+data/                 projects.ts, skills.ts
+public/               photo, CV and share image
+~~~
+
+## Run locally
+
+Requires Node.js 20.9 or newer.
+
+~~~
+git clone https://github.com/Haez0004/haez-portfolio.git
+cd haez-portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+~~~
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Running on Termux (Android)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Turbopack has no Android build, so start the dev server with Webpack:
 
-## Learn More
+~~~
+npx next dev --webpack
+~~~
 
-To learn more about Next.js, take a look at the following resources:
+Tailwind v4 also needs the PostCSS plugin (`@tailwindcss/postcss`) and a `postcss.config.mjs`, both already set up in this repo.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## What I learned
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- When to use a Server Component and when a Client Component is needed
+- How folders become routes, and how `[slug]` serves many pages from one file
+- Why `priority` belongs only on the main image at the top of a page
+- Why optimized images and fonts matter for performance scores
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I am open to freelance work and to full-time or part-time remote jobs.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Email: hakurie146@gmail.com
+- GitHub: https://github.com/Haez0004
