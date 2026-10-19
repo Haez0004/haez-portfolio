@@ -12,7 +12,7 @@ export default function ProjectCard({ project }: { project: Project }) {
       <p className="text-slate-400 text-sm mt-2">{project.description}</p>
       <div className="mt-3 flex flex-wrap gap-2">
         {project.tech.map((t) => (
-          <span key={t} className="text-xs text-cyan-400 bg-slate-900 px-2 py-1 rounded">
+          <span key={t} className="text-xs text-cyan-400 bg-slate-700/60 px-2 py-1 rounded">
             {t}
           </span>
         ))}
