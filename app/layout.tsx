@@ -10,11 +10,11 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://haez-portfolio.vercel.app"),
   title: "HAEZ | Frontend Developer in Abuja",
   description:
-    "Frontend developer from Abuja. I build ultra fast, clean websites with Tailwind, JavaScript and React.",
+    "Frontend developer from Abuja. I build ultra fast, clean websites with Tailwind, JavaScript, TypeScript, Next.js  and React.",
   openGraph: {
     title: "HAEZ | Frontend Developer in Abuja",
     description:
-      "I build ultra-fast, clean websites with Tailwind, JavaScript and React.",
+      "I build ultra-fast, clean websites with Tailwind, JavaScript, TypeScript, Next.js and React.",
     images: ["/og.jpg"],
     type: "website",
   },
