@@ -24,7 +24,7 @@ export default function AboutPage() {
         <p className="mt-3 text-slate-300 leading-relaxed">
           I learned and built everything on my phone using Termux. That
           taught me to write lean code, test on real devices, and ship
-          projects that work offline. I am available for freelance work, remote full and part-time jobs.
+          projects that work offline. I am open to freelance work and to full-time or part-time remote jobs.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <a

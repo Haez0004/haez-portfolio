@@ -20,7 +20,7 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: "JavaScript",
-    items: ["map, filter, reduce", "async/await and fetch", "REST APIs", "localStorage", "Debouncing"],
+    items: ["map, filter, reduce", "Promises and async/await", "fetch and REST APIs", "localStorage", "Debouncing"],
   },
   {
     title: "React",
@@ -28,11 +28,11 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: "TypeScript and Next.js",
-    items: ["Types and interfaces", "Typed React apps", "Next.js App Router", "Server and Client Components", "Dynamic routes"],
+    items: ["Types and interfaces", "Typed React apps", "Next.js App Router", "Server and Client Components", "Dynamic routes", "Metadata and next/image"],
   },
   {
     title: "Quality",
-    items: ["PWA and offline support", "Service workers", "SEO and Open Graph", "Performance", "Accessibility basics"],
+    items: ["PWA and offline support", "Service workers", "SEO and Open Graph", "PageSpeed optimization", "Accessibility basics"],
   },
   {
     title: "Tools",
@@ -45,18 +45,18 @@ export const journey: JourneyStep[] = [
     period: "Month 1",
     title: "Foundations",
     detail:
-      "Rebuilt my portfolio with Tailwind, SEO and Open Graph, and a real contact form. Built an offline Expense Tracker with search, filters and edit, then learned Git branching.",
+      "Rebuilt my portfolio with Tailwind, Flexbox and Grid, SEO and Open Graph, and a real contact form. Built an offline Expense Tracker with search, filters and edit, added a service worker, then learned Git branching.",
   },
   {
     period: "Month 2",
     title: "JavaScript and React",
     detail:
-      "Learned async JavaScript and shipped a Weather PWA with a live API. Moved into React with Vite, hooks and routing, and rebuilt my tracker as a React app.",
+      "Learned async JavaScript and shipped a Weather PWA with a live API. Moved into React with Vite, hooks and React Router, and rebuilt my tracker as a multi-page app with budgets and analytics.",
   },
   {
     period: "Month 3",
     title: "TypeScript and Next.js",
     detail:
-      "Converted my apps to TypeScript, then built an e-commerce store and a movie app. Rebuilt this portfolio in Next.js with Server Components and dynamic routes.",
+      "Converted my expense tracker to TypeScript, then built an e-commerce store and a movie app. Rebuilt this portfolio in Next.js with Server Components and dynamic routes, and scored 100 on mobile PageSpeed for Performance.",
   },
 ]
