@@ -30,8 +30,8 @@ export const projects: Project[] = [
     slug: "expense-tracker",
     title: "Expense Tracker",
     description:
-      "Offline Expense Tracker with Search, Monthly Filter, Edit/Delete. Installable, works without internet.",
-    tech: ["React", "Vite", "PWA"],
+      "Multi-page React app with dashboard, transactions, analytics, monthly budget and settings. Search, month and date filters, edit/delete, multi-currency. Installable PWA that works offline.",
+    tech: ["React", "TypeScript", "React Router", "Tailwind", "PWA"],
     live: "https://expense-tracker-7455.vercel.app",
     code: "https://github.com/Haez0004/expense-tracker",
   },
@@ -40,7 +40,7 @@ export const projects: Project[] = [
     title: "HAEZ SHOP E-Commerce",
     description:
       "Search, category filter, basket, checkout, order history with cancel, account page, help center. Installable and works offline.",
-    tech: ["React", "TypeScript", "Tailwind"],
+    tech: ["React", "TypeScript", "React Router", "Tailwind"],
     live: "https://e-commerce-ten-wine-53.vercel.app",
     code: "https://github.com/Haez0004/e-commerce-",
   },
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     title: "Hk Movies",
     description:
       "Search, genre filters, load more, trailers and cast, watchlist saved on device. Powered by TMDB.",
-    tech: ["React", "TypeScript", "Vite", "Tailwind"],
+    tech: ["React", "TypeScript", "Vite", "React Router", "Tailwind"],
     live: "https://haez0004-movie-app.vercel.app",
     code: "https://github.com/Haez0004/movie-app",
   },
