@@ -34,7 +34,7 @@ export default function Home() {
             <span className="text-cyan-400">fast websites</span>
           </h1>
           <p className="mt-4 text-slate-300">
-            Frontend developer from Abuja. Tailwind + JS + React + Next.js.
+            Frontend developer from Abuja. React + TypeScript + Next.js + Tailwind.
           </p>
           <div className="mt-6 flex gap-3">
             <Link
