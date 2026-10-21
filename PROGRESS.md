@@ -77,3 +77,12 @@
 - `mx-auto` behaves differently inside a flex container
 - `priority` is for the one image at the top, not every image
 - Check what the manifest points to before changing icons
+
+## Update: Oct 20, 2026
+
+- [x] Contact form sends in the background with an on-site success message
+- [x] Formspree URL moved into NEXT_PUBLIC_FORMSPREE_URL on Vercel
+- [x] Hero, About page and descriptions now feature TypeScript
+- [x] README, LinkedIn and CV updated with live links
+- [ ] Tracker categories (Day 11) are not built yet
+- [ ] Mock interviews (Days 56-60)
