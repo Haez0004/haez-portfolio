@@ -28,11 +28,10 @@ export default function AboutPage() {
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <a
-            href="/my-cv.pdf"
-            download
+            href="/cv"
             className="bg-cyan-400 text-black px-5 py-2.5 rounded font-semibold"
           >
-            Download CV
+            View CV
           </a>
           <Link
             href="/contact"

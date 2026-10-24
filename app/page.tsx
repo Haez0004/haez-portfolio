@@ -120,11 +120,10 @@ export default function Home() {
             Contact me
           </Link>
           <a
-            href="/my-cv.pdf"
-            download
+            href="/cv"
             className="border border-slate-600 px-5 py-2.5 rounded"
           >
-            Download CV
+            View CV
           </a>
         </div>
       </section>
