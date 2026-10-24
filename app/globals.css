@@ -39,6 +39,9 @@ body {
     padding: 0 !important;
     border-radius: 0 !important;
   }
+  #cv-sheet section {
+    break-inside: avoid;
+  }
   @page {
     margin: 14mm;
   }
