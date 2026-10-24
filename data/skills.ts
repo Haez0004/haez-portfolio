@@ -63,6 +63,6 @@ export const journey: JourneyStep[] = [
     period: "Month 4",
     title: "Production Next.js",
     detail:
-      "Built a remote jobs board in Next.js 16 with cached API data, URL-based search and filters, sanitized job pages, saved jobs, an installable offline PWA and a 99/100/100/100 Lighthouse score.",
+      "Built a remote jobs board in Next.js 16 with cached API data, URL-based search and filters, sanitized job pages, saved jobs, an installable offline PWA and a 100/100/100/100 Lighthouse score.",
   },
 ]

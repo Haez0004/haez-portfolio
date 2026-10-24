@@ -66,7 +66,7 @@ export const projects: Project[] = [
     slug: "remotejobs",
     title: "RemoteJobs Board",
     description:
-      "Remote software jobs board with search, category and type filters, pagination, job detail pages and saved jobs on device. Installable PWA that works offline. Lighthouse 99/100/100/100. Powered by Remotive. Built 100% in Termux.",
+      "Remote software jobs board with search, category and type filters, pagination, job detail pages and saved jobs on device. Installable PWA that works offline. Lighthouse 100/100/100/100. Powered by Remotive. Built 100% in Termux.",
     tech: ["Next.js", "TypeScript", "Tailwind", "PWA"],
     live: "https://remotejobs-liard.vercel.app",
     code: "https://github.com/Haez0004/remotejobs",
