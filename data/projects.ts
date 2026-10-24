@@ -62,4 +62,13 @@ export const projects: Project[] = [
     live: "https://haez-portfolio.vercel.app",
     code: "https://github.com/Haez0004/haez-portfolio",
   },
+  {
+    slug: "remotejobs",
+    title: "RemoteJobs Board",
+    description:
+      "Remote software jobs board with search, category and type filters, pagination, job detail pages and saved jobs on device. Installable PWA that works offline. Lighthouse 99/100/100/100. Powered by Remotive. Built 100% in Termux.",
+    tech: ["Next.js", "TypeScript", "Tailwind", "PWA"],
+    live: "https://remotejobs-liard.vercel.app",
+    code: "https://github.com/Haez0004/remotejobs",
+  },
 ]

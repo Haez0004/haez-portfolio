@@ -28,11 +28,11 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     title: "TypeScript and Next.js",
-    items: ["Types and interfaces", "Typed React apps", "Next.js App Router", "Server and Client Components", "Dynamic routes", "Metadata and next/image"],
+    items: ["Types and interfaces", "Typed React apps", "Next.js App Router", "Server and Client Components", "Dynamic routes", "Metadata and next/image", "Data caching and revalidation", "Loading, error and 404 states"],
   },
   {
     title: "Quality",
-    items: ["PWA and offline support", "Service workers", "SEO and Open Graph", "PageSpeed optimization", "Accessibility basics"],
+    items: ["PWA and offline support", "Service workers", "SEO and Open Graph", "PageSpeed optimization", "Accessibility basics", "HTML sanitizing"],
   },
   {
     title: "Tools",
@@ -58,5 +58,11 @@ export const journey: JourneyStep[] = [
     title: "TypeScript and Next.js",
     detail:
       "Converted my expense tracker to TypeScript, then built an e-commerce store and a movie app. Rebuilt this portfolio in Next.js with Server Components and dynamic routes, and scored 100 on mobile PageSpeed for Performance.",
+  },
+  {
+    period: "Month 4",
+    title: "Production Next.js",
+    detail:
+      "Built a remote jobs board in Next.js 16 with cached API data, URL-based search and filters, sanitized job pages, saved jobs, an installable offline PWA and a 99/100/100/100 Lighthouse score.",
   },
 ]
