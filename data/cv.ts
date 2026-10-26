@@ -23,7 +23,7 @@ export const cv = {
   github: "https://github.com/Haez0004",
   linkedin: "https://www.linkedin.com/in/hakuri-ezekiel-787a34336",
   summary:
-    "Frontend developer based in Abuja, Nigeria, building fast, responsive websites and web apps with React, TypeScript, Next.js and Tailwind CSS. Built and deployed seven projects, including a Next.js portfolio and a remote jobs board that score 100 on mobile PageSpeed. All projects were built entirely on a phone using Termux, which taught me to write lean code and test on real devices. Background in teaching, team management and music instruction adds strong communication, organization and teamwork. Open to freelance work and to full-time or part-time remote roles.",
+    "Frontend developer based in Abuja, Nigeria, building fast, responsive websites and web apps with React, TypeScript, Next.js and Tailwind CSS. Built and deployed eight projects, including a Next.js portfolio and a remote jobs board that score 100 on mobile PageSpeed. All projects were built entirely on a phone using Termux, which taught me to write lean code and test on real devices. Background in teaching, team management and music instruction adds strong communication, organization and teamwork. Open to freelance work and to full-time or part-time remote roles.",
   skills: [
     ["Frontend", "HTML5, CSS3, JavaScript (ES6+), TypeScript, React, React Router, Next.js (App Router), Tailwind CSS, Vite"],
     ["Web and quality", "PWA and service workers, REST APIs, responsive design, SEO and Open Graph, performance optimization, accessibility, HTML sanitizing"],
@@ -32,6 +32,20 @@ export const cv = {
     ["Professional", "Team leadership, teaching, communication, problem solving, piano instruction and music theory"],
   ] as [string, string][],
   projects: [
+    
+    {
+      title: "TaskFlow",
+      tech: "Next.js 16, React 19, TypeScript, Tailwind CSS, dnd-kit, PWA",
+      year: "2026",
+      live: "https://taskflow-coral-delta.vercel.app",
+      code: "https://github.com/Haez0004/taskflow-",
+      bullets: [
+        "Built an accessible task board with drag and drop that works by keyboard and screen reader, using useReducer and Context, with tasks saved on the device",
+        "Added live announcements, focus management, search and empty states; scores 100 on Accessibility, Best Practices and SEO on Lighthouse",
+        "Made it an installable PWA with offline support, covered by Vitest tests",
+      ],
+    },
+
     {
       title: "RemoteJobs Board",
       tech: "Next.js 16, TypeScript, Tailwind CSS, PWA",

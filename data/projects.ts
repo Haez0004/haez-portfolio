@@ -71,4 +71,13 @@ export const projects: Project[] = [
     live: "https://remotejobs-liard.vercel.app",
     code: "https://github.com/Haez0004/remotejobs",
   },
+  {
+    slug: "taskflow",
+    title: "TaskFlow",
+    description:
+      "Accessible task board with drag and drop that works by keyboard and screen reader. Search, live announcements, tasks saved on the device, installable PWA that works offline. Scores 100 on Lighthouse Accessibility, Best Practices and SEO.",
+    tech: ["Next.js", "TypeScript", "Tailwind", "dnd-kit", "PWA"],
+    live: "https://taskflow-coral-delta.vercel.app",
+    code: "https://github.com/Haez0004/taskflow-",
+  },
 ]
