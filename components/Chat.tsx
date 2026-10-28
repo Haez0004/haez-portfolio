@@ -104,7 +104,9 @@ export default function Chat() {
 
         {error && (
           <p className="text-sm text-red-400">
-            Something went wrong. Please try again in a moment.
+            {/limit|quota|429|exhausted/i.test(error.message)
+             ? "Demo limit reached. Please try again later."
+             : "Something went wrong. Please try again in a moment."}
           </p>
         )}
       </div>
