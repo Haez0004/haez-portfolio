@@ -57,8 +57,8 @@ export const projects: Project[] = [
     slug: "portfolio-v2",
     title: "Portfolio v2 (Next.js)",
     description:
-      "My portfolio rebuilt in Next.js with the App Router. Server Components by default with Client Components only where needed, typed project data, dynamic project pages with their own metadata, Open Graph share previews with an optimized image, next/font, a custom 404 and an About page. Built 100% in Termux.",
-    tech: ["Next.js", "TypeScript", "Tailwind", "Server Components"],
+      "My portfolio rebuilt in Next.js with the App Router. Server Components by default with Client Components only where needed, typed project data, dynamic project pages with their own metadata, Open Graph share previews with an optimized image, next/font, a custom 404, an About page and includes AI assistant that answers questions about my work from my CV and project data. Built 100% in Termux.",
+    tech: ["Next.js", "TypeScript", "Tailwind", "Geminine and Vercel AI SDK",  "Server Components"],
     live: "https://haez-portfolio.vercel.app",
     code: "https://github.com/Haez0004/haez-portfolio",
   },

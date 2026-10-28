@@ -57,7 +57,7 @@ export const journey: JourneyStep[] = [
     period: "Month 3",
     title: "TypeScript and Next.js",
     detail:
-      "Converted my expense tracker to TypeScript, then built an e-commerce store and a movie app. Rebuilt this portfolio in Next.js with Server Components and dynamic routes, and scored 100 on mobile PageSpeed for Performance.",
+      "Converted my expense tracker to TypeScript, then built an e-commerce store and a movie app. Rebuilt this portfolio in Next.js with Server Components and dynamic routes, Geminine, Vercel AI SDK, and scored 100 on mobile PageSpeed for Performance.",
   },
   {
     period: "Month 4",
