@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+serverExternalPackages: ["ai", "@ai-sdk/gateway", "@vercel/oidc"],
   /* config options here */
   experimental: {
     agentFeedback: true,

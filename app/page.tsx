@@ -127,6 +127,10 @@ export default function Home() {
           </a>
         </div>
       </section>
+      <section className="bg-slate-800 rounded-xl p-8">
+        <h2 className="text-2xl font-bold text-center">Ask my AI assistant</h2>
+        <Link href="/chat" className="inline-block mt-5 bg-cyan-400 text-black px-5 py-2.5 rounded font-semibold">Start chat</Link>
+      </section>
     </div>
   )
 }
